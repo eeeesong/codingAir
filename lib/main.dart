@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontSize: 25,
                 ),
+                textAlign: TextAlign.center,
               ),
               Image.network(
                 "https://emojigraph.org/media/apple/airplane_2708-fe0f.png",
@@ -65,7 +66,7 @@ class MyApp extends StatelessWidget {
                 child: Text(
                   '안녕하세요. 저희는 코딩으로 날아오르자는 당찬 포부를 가진 팀 코딩 Air 입니다.\n'
                   '저희 팀의 개성은 MBTI 가 (E : 50% , I : 50%) 라는 특징을 가지고 있고,\n'
-                  '놀때는 활발하게 잘 놀고 일할 때는 진중하며 의견을 내면 그 의견에 대한 피드백과 그 의견에 따른 결정을 잘 냅니다.\n'
+                  '놀때는 활발하게 잘 놀고 일할 때는 진중하며 의견을 내면 그 의견에 대한 피드백과 그 의견에 따른 결정을 잘 냅니다.\n',
                   //'저희는 공부도 중요하지만 취미생활도 중요하다고 생각하는 타입입니다.같이 화이팅해서 날아오르겠습니다.',
                   //'저희는 공부도 중요하지만 취미생활도 중요하다고 생각하는 타입입니다.같이 화이팅해서 날아오르겠습니다.'
                   style: TextStyle(fontSize: 20),
